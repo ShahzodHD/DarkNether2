@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8716010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620599228}
@@ -177,7 +177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347970330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.3, z: 0}
+  m_LocalPosition: {x: 0, y: -0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620599228}
@@ -553,7 +553,7 @@ Transform:
   m_GameObject: {fileID: 1620599227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.13, y: -0.45, z: -1}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 347970331}
   - {fileID: 8716011}
@@ -602,7 +602,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a5a4a15c81a8d3f48899ceeb70fc9311, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d798c3b5de7baf4098845e7a8400fb8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -622,22 +622,22 @@ BoxCollider2D:
   m_GameObject: {fileID: 1620599227}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: ea65a0e9bb0253f4cad38dc527e04925, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 3.2256656}
+  m_Offset: {x: -0.026658297, y: 0.34590307}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.84, y: 12.89}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 6.84, y: 12.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.84, y: 6.330241}
+  m_Size: {x: 0.40269995, y: 0.58819383}
   m_EdgeRadius: 0
 --- !u!50 &1620599231
 Rigidbody2D:
@@ -715,18 +715,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -3.1985593}
+  m_Offset: {x: -0.033928752, y: -0.29268712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.84, y: 12.89}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 6.84, y: 12.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.84, y: 6.4928827}
+  m_Size: {x: 0.39785314, y: 0.69462574}
   m_EdgeRadius: 0
 --- !u!95 &1620599235
 Animator:
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 1771815809}
   - component: {fileID: 1771815810}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -792,13 +792,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771815808}
-  m_LocalRotation: {x: 0, y: 0, z: -0.1473778, w: 0.9890803}
-  m_LocalPosition: {x: 2.53, y: 1.04, z: 0}
-  m_LocalScale: {x: 1, y: 8.38, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.34566733, w: 0.9383571}
+  m_LocalPosition: {x: 0.3, y: 0.018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620599228}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.95}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -40.445}
 --- !u!212 &1771815810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -839,7 +839,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 90eb30807d11448448d9138ab792b5c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7333f0e027fea9c43a9a9d9b186577ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -874,7 +874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994628268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.85, y: 3.47, z: 0}
+  m_LocalPosition: {x: 0.15, y: -0.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620599228}
