@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform ceilingCheck;
     [SerializeField] private Collider2D crouchDisableCollider;
+    [SerializeField] private Animator animator;
 
     const float groundedRadios = .2f;
     const float ceilingRadius = .2f;
@@ -122,6 +123,14 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
+        }
+        if (move > 0 || move < 0) 
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        if (move == 0) 
+        {
+            animator.SetBool("IsWalking", false);
         }
     }
     
