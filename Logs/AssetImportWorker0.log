@@ -417,3 +417,109 @@ Received Import Request.
   path: Assets/Sprites/Player/Model/mainheroModel.psb
   artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd460849428e349c694a76c44e2a489') in 0.114490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2294.648496 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796764000c16a51a6712d786ec40c910') in 0.595535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.408735 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5424b5dc4fc6ea563fbd7ccb60772d01') in 0.485830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.647018 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c494f7ace34b60b00a3363ad2054ff37') in 0.194923 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.615 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3933.
+Total: 4.961900 ms (FindLiveObjects: 0.510300 ms CreateObjectMapping: 0.188300 ms MarkObjects: 4.214100 ms  DeleteObjects: 0.047000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3936.
+Total: 4.670900 ms (FindLiveObjects: 0.700300 ms CreateObjectMapping: 0.318000 ms MarkObjects: 3.615400 ms  DeleteObjects: 0.035500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 386.134350 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bade2a9c526126ca6abe83e8eae3e1ae') in 0.252033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.311621 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306741ef99697b152e021ea76d62de40') in 0.621583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.621442 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e3b3eecfffd65919f8f18adef97834') in 0.247729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3637.333488 seconds.
+  path: Assets/Sprites/Player/Model/mainheroModel.psb
+  artifactKey: Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Model/mainheroModel.psb using Guid(a1b3342f8f1c73f439c007b11779cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0757cd4b6a0030b9208f77f0c35cba82') in 0.334969 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.138 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3996.
+Total: 3.614200 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.102400 ms MarkObjects: 3.107600 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
