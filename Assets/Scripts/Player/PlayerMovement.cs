@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private PlayerController controller;
-    [SerializeField] private float runSpeed = 40f;
+    [SerializeField] public float runSpeed;
 
     private float horizontalMove = 0f;
     private bool jump = false;
