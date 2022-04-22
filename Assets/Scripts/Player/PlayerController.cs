@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Collider2D crouchDisableCollider;
     [SerializeField] private Animator animator;
 
+
     const float groundedRadios = .2f;
     const float ceilingRadius = .2f;
     private bool grounded;
@@ -94,6 +95,8 @@ public class PlayerController : MonoBehaviour
                 {
                     crouchDisableCollider.enabled = false;
                 }
+
+                if (move > 0 || move < 0) { animator.SetBool("IsCrouch", true); }
             }
             else
             {
@@ -133,6 +136,7 @@ public class PlayerController : MonoBehaviour
         if (move == 0) 
         {
             animator.SetBool("IsWalking", false);
+            animator.SetBool("IsCrouch", false);
         }
     }
     
