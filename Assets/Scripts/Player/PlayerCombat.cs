@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -11,36 +9,42 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private int attackDamage;
     [SerializeField] private float attackRate;
     [SerializeField] private float nextAttackTime;
+
+    [SerializeField] private PlayerMovement playerMovement;
     private void Update()
     {
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.K))
             {
-                Attack();
+                AttackAnim();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
     }
-    private void Attack()
+    private void AttackAnim()
     {
         anim.SetTrigger("Attack");
-
+        playerMovement.runSpeed = 0;
+    }
+    private void Attack()
+    {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyHealthSystem>().TakeDamage(attackDamage);
         }
-    }
 
+        Invoke("RunAfterAttack", 0.3f);
+    }
+    private void RunAfterAttack() { playerMovement.runSpeed = 25; }
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
         {
             return;
         }
-
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
