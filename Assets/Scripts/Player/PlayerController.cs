@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
         {
             onCrouchEvent = new BoolEvent();
         }
+
+        Physics.IgnoreLayerCollision(10, 6, true);
     }
 
     private void FixedUpdate()

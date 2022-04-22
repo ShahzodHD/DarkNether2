@@ -8,6 +8,7 @@ public class EnemyHealthSystem : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+        Physics2D.IgnoreLayerCollision(6, 10);
     }
     public void TakeDamage(int damage)
     {
