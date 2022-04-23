@@ -11,12 +11,16 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float nextAttackTime;
 
     [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private PlayerController playerController;
+
+    public bool attackCtrl;
     private void Update()
     {
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.K))
             {
+                //if (playerController.grounded == true) { AttackAnim(); }
                 AttackAnim();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
@@ -36,9 +40,12 @@ public class PlayerCombat : MonoBehaviour
             enemy.GetComponent<EnemyHealthSystem>().TakeDamage(attackDamage);
         }
 
-        Invoke("RunAfterAttack", 0.3f);
+        Invoke("AfterAttack", 0.3f);
     }
-    private void RunAfterAttack() { playerMovement.runSpeed = 25; }
+    private void AfterAttack() 
+    { 
+        playerMovement.runSpeed = 25;
+    }
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)

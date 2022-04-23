@@ -16,10 +16,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Collider2D crouchDisableCollider;
     [SerializeField] private Animator animator;
 
+    [HideInInspector] public bool grounded;
 
     const float groundedRadios = .2f;
     const float ceilingRadius = .2f;
-    private bool grounded;
     private Rigidbody2D rb;
     private bool facingRight = true;
     private Vector3 velocity = Vector3.zero;
@@ -127,10 +127,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (grounded && jump)
+        if (grounded && jump) // 23.04.22 ночь, исправить момент с тем что бул IsJumping выключается моментально
         {
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
+            animator.SetBool("IsJumping", true);
+        }
+        if (grounded == true)
+        {
+            animator.SetBool("IsJumping", false);
         }
     }
     

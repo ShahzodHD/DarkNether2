@@ -652,6 +652,7 @@ MonoBehaviour:
   ceilingCheck: {fileID: 8716011}
   crouchDisableCollider: {fileID: 1620599230}
   animator: {fileID: 1620599229}
+  grounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -772,6 +773,8 @@ MonoBehaviour:
   attackRate: 1.5
   nextAttackTime: 0
   playerMovement: {fileID: 1620599233}
+  playerController: {fileID: 1620599232}
+  attackCtrl: 1
 --- !u!1 &1994628268
 GameObject:
   m_ObjectHideFlags: 0
