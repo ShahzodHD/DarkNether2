@@ -769,7 +769,7 @@ MonoBehaviour:
     m_Bits: 1024
   attackRange: 0.5
   attackDamage: 20
-  attackRate: 2
+  attackRate: 1.5
   nextAttackTime: 0
   playerMovement: {fileID: 1620599233}
 --- !u!1 &1994628268
