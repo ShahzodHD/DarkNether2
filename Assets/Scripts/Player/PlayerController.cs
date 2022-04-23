@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
                     crouchDisableCollider.enabled = false;
                 }
 
-                if (move > 0 || move < 0) { animator.SetBool("IsCrouch", true); }
+                if (move > 0 || move < 0) { animator.SetFloat("Speed", -1); }
             }
             else
             {
@@ -109,6 +109,9 @@ public class PlayerController : MonoBehaviour
                     wasCrouching = false;
                     onCrouchEvent.Invoke(false);
                 }
+
+                animator.SetFloat("Speed", 1);
+                if (move == 0) { animator.SetFloat("Speed", 0); }
             }
 
             Vector3 targetVelocity = new Vector2(move * 10f, rb.velocity.y);
@@ -128,15 +131,6 @@ public class PlayerController : MonoBehaviour
         {
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
-        }
-        if (move > 0 || move < 0) 
-        {
-            animator.SetBool("IsWalking", true);
-        }
-        if (move == 0) 
-        {
-            animator.SetBool("IsWalking", false);
-            animator.SetBool("IsCrouch", false);
         }
     }
     
