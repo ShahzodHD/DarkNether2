@@ -16,9 +16,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Collider2D crouchDisableCollider;
     [SerializeField] private Animator animator;
 
+    [HideInInspector] public bool grounded;
+
     const float groundedRadios = .2f;
     const float ceilingRadius = .2f;
-    private bool grounded;
     private Rigidbody2D rb;
     private bool facingRight = true;
     private Vector3 velocity = Vector3.zero;
@@ -45,6 +46,8 @@ public class PlayerController : MonoBehaviour
         {
             onCrouchEvent = new BoolEvent();
         }
+
+        Physics.IgnoreLayerCollision(10, 6, true);
     }
 
     private void FixedUpdate()
@@ -92,6 +95,8 @@ public class PlayerController : MonoBehaviour
                 {
                     crouchDisableCollider.enabled = false;
                 }
+
+                if (move > 0 || move < 0) { animator.SetFloat("Speed", -1); }
             }
             else
             {
@@ -104,6 +109,9 @@ public class PlayerController : MonoBehaviour
                     wasCrouching = false;
                     onCrouchEvent.Invoke(false);
                 }
+
+                animator.SetFloat("Speed", 1);
+                if (move == 0) { animator.SetFloat("Speed", 0); }
             }
 
             Vector3 targetVelocity = new Vector2(move * 10f, rb.velocity.y);
@@ -119,18 +127,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (grounded && jump)
+        if (grounded && jump) // 23.04.22 ночь, исправить момент с тем что бул IsJumping выключается моментально
         {
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
+            animator.SetBool("IsJumping", true);
         }
-        if (move > 0 || move < 0) 
+        if (grounded == true)
         {
-            animator.SetBool("IsWalking", true);
-        }
-        if (move == 0) 
-        {
-            animator.SetBool("IsWalking", false);
+            animator.SetBool("IsJumping", false);
         }
     }
     
