@@ -127,7 +127,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (grounded && jump) // 23.04.22 ночь, исправить момент с тем что бул IsJumping выключается моментально
+        if (grounded && jump) 
         {
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
@@ -136,6 +136,10 @@ public class PlayerController : MonoBehaviour
         if (grounded == true)
         {
             animator.SetBool("IsJumping", false);
+        }
+        else
+        {
+            animator.SetBool("IsJumping", true);
         }
     }
     
