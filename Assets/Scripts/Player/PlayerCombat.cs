@@ -20,7 +20,6 @@ public class PlayerCombat : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.K))
             {
-                //if (playerController.grounded == true) { AttackAnim(); }
                 AttackAnim();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
