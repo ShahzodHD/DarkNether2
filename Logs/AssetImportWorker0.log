@@ -15,11 +15,11 @@ C:/Users/khali/Documents/GitHub/DarkNether2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58951
+57644
 Successfully changed project path to: C:/Users/khali/Documents/GitHub/DarkNether2
 C:/Users/khali/Documents/GitHub/DarkNether2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 194.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 129.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path D:/Game/Unity/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,553 +35,184 @@ Initialize mono
 Mono path[0] = 'D:/Game/Unity/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Game/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Game/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Game/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Game/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001931 seconds.
+Registered in 0.001903 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 123.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.161 seconds
+- Completed reload, in  2.499 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005249 seconds.
+Registered in 0.005460 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 171.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 124.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.390 seconds
+- Completed reload, in  1.923 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 123.7 MB.
 System memory in use after: 123.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3687.
-Total: 7.921100 ms (FindLiveObjects: 0.540400 ms CreateObjectMapping: 0.771600 ms MarkObjects: 6.497700 ms  DeleteObjects: 0.109000 ms)
+Total: 2.917100 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.115500 ms MarkObjects: 2.352400 ms  DeleteObjects: 0.083700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animation/Player/PlayerController.controller
-  artifactKey: Guid(cec580984511b9447853739602d03c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/PlayerController.controller using Guid(cec580984511b9447853739602d03c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cd1209fe753bee932d0267009c7fa4') in 0.228451 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.3 MB.
-System memory in use after: 59.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3687.
-Total: 3.892300 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.340800 ms  DeleteObjects: 0.028400 ms)
-
+  path: Assets/Sprites/Player/run sword.png
+  artifactKey: Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/run sword.png using Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e71a872810664932700da89a8d8a30f') in 0.197413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 310.742896 seconds.
-  path: Assets/Sprites/Player/playermodeIdlel.png
-  artifactKey: Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlel.png using Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672d03a42ee20dc2a05d7d5dc015ab5b') in 0.147749 seconds 
+  Time since last request: 96.478374 seconds.
+  path: Assets/Sprites/Player/player run sword.png
+  artifactKey: Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/player run sword.png using Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad28477c18b8501b301ffad9b948003') in 0.103260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.341402 seconds.
-  path: Assets/Sprites/Player/playermodeIdlel.png
-  artifactKey: Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlel.png using Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8821c26e413d2250fb6292e43deefb8d') in 0.029879 seconds 
+  Time since last request: 13.553092 seconds.
+  path: Assets/Sprites/Player/player run sword.png
+  artifactKey: Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/player run sword.png using Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafc83862fa971433e1dbb4dcf8ade3d') in 0.058410 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.576104 seconds.
-  path: Assets/Sprites/Player/playermodeIdlel.png
-  artifactKey: Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlel.png using Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839e3a042b4d26b4977935331ab54d53') in 0.055300 seconds 
+  Time since last request: 57.283404 seconds.
+  path: Assets/Sprites/Player/player run sword.png
+  artifactKey: Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/player run sword.png using Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbca2fad9b1871380783226ae315e844') in 0.074196 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.390711 seconds.
-  path: Assets/Sprites/Player/playermodeIdlel.png
-  artifactKey: Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlel.png using Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b84379f11b88c0f04bb03514357223') in 0.038417 seconds 
+  Time since last request: 63.811779 seconds.
+  path: Assets/Sprites/Player/player run sword.png
+  artifactKey: Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/player run sword.png using Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e71d985b68144082127dbda99149128') in 0.051305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.534201 seconds.
-  path: Assets/Sprites/Player/Weapon
-  artifactKey: Guid(24e67ac1a8e6389408f909747aad0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Weapon using Guid(24e67ac1a8e6389408f909747aad0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f04eea44ef88fb1b8275b6d3d15263') in 0.014758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.588238 seconds.
-  path: Assets/Sprites/Player/playermodeIdlel.png
-  artifactKey: Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlel.png using Guid(1d279495b4fed9246911295d232b40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88c21722912852c522246ef8091ca9') in 0.030856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 400.859538 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21641ebe432f5b2472f16b49efc584e4') in 0.034241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.712926 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc26b84608172df752fb4740d1aba9af') in 0.029045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.891639 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfd8b637b77d797842fabf77420a38') in 0.058123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.860839 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(fce3fb700afb84c4299d204f70331759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bc1f65a195f0fc9c95127f0ea0d9ef') in 0.060663 seconds 
+  Time since last request: 3.197817 seconds.
+  path: Assets/Sprites/Player/player run sword.png
+  artifactKey: Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/player run sword.png using Guid(963f29a16706a3c48a1f24bbce5fc463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3506ab142a7aaaa0459f523446a7af4') in 0.059734 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005318 seconds.
+Registered in 0.007903 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.537 seconds
+- Completed reload, in  2.039 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3834.
-Total: 3.755200 ms (FindLiveObjects: 0.367700 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.244500 ms  DeleteObjects: 0.037400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 486.323254 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1 1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1 1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7bf842188d2e918225c3703b2d8ee9') in 0.151444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.285928 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1 1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1 1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3052cb754401cea9e42f6d0f61bf54d7') in 0.035410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.828794 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1 1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1 1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baf6fdd20ff00db9569b1227d941ce2') in 0.082500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.765887 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1aa38e101161e9fe275f96e54f38ce') in 0.046767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.591624 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df07b1186aae90050b38999e64b6fb3') in 0.048455 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.954 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 133.0 MB.
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3915.
-Total: 4.132800 ms (FindLiveObjects: 0.495200 ms CreateObjectMapping: 0.228700 ms MarkObjects: 3.375500 ms  DeleteObjects: 0.032300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3795.
+Total: 5.019300 ms (FindLiveObjects: 0.559800 ms CreateObjectMapping: 0.303700 ms MarkObjects: 4.106000 ms  DeleteObjects: 0.047600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 110.475559 seconds.
+  path: Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Jump.anim
+  artifactKey: Guid(6862262ae453990458ce4d7bffa67e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Jump.anim using Guid(6862262ae453990458ce4d7bffa67e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa625e7c97bb37280945075cbad78a26') in 0.054307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.938641 seconds.
+  path: Assets/Animation/Player/Idle.anim
+  artifactKey: Guid(5ebd92ec0147c7d4dac5630b51456c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Idle.anim using Guid(5ebd92ec0147c7d4dac5630b51456c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79a793253b1dc1c86ea7d94e28b18a0') in 0.021072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.701442 seconds.
+  path: Assets/Animation/Player/Run.anim
+  artifactKey: Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Run.anim using Guid(c2755e67fa2a27c4784f3f25fb5572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7537b393181c3049cb6b243da1e6e28e') in 0.017050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.458636 seconds.
+  path: Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Run.anim
+  artifactKey: Guid(89f869cf61a771e40bbc282a5c7add2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_Run.anim using Guid(89f869cf61a771e40bbc282a5c7add2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95a4640ff24a5f6bca51fbf74855f0f') in 0.025422 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006537 seconds.
+Registered in 0.009587 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
+- Completed reload, in  1.664 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 133.0 MB.
+System memory in use before: 129.4 MB.
+System memory in use after: 129.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3918.
-Total: 6.241600 ms (FindLiveObjects: 1.992400 ms CreateObjectMapping: 0.443000 ms MarkObjects: 3.764600 ms  DeleteObjects: 0.039600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3798.
+Total: 8.412600 ms (FindLiveObjects: 0.471500 ms CreateObjectMapping: 0.508900 ms MarkObjects: 7.384300 ms  DeleteObjects: 0.045900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 432.820859 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b56a5c607fcc338fd9e832a28a79c2') in 0.092945 seconds 
+  Time since last request: 818.573343 seconds.
+  path: Assets/Sprites/Player/run sword.png
+  artifactKey: Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/run sword.png using Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d89a3a8f4c86e4215645b81ca88286') in 0.099440 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.177780 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dccee91da55775f0d4dd4cfaf5fdb8') in 0.036530 seconds 
+  Time since last request: 15.457719 seconds.
+  path: Assets/Sprites/Player/run sword.png
+  artifactKey: Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/run sword.png using Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a272470d19a63f199592383423ed4c69') in 0.031856 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.772505 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b123fab8762645b20973959663248234') in 0.057845 seconds 
+  Time since last request: 30.449411 seconds.
+  path: Assets/Sprites/Player/run sword.png
+  artifactKey: Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/run sword.png using Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8fd3ff3ae236408b4103d9edc638d7') in 0.064085 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.995754 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f8dc097f087c9424cadd661a9d1b54') in 0.100348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 129.901989 seconds.
-  path: Assets/Sprites/Player/AnimWalk/mainheroWalk2.png
-  artifactKey: Guid(6b896eef31cf3d0419bfa44433a94cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/AnimWalk/mainheroWalk2.png using Guid(6b896eef31cf3d0419bfa44433a94cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495f07ba2247a120ed185f10f8f42aa5') in 0.071683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/Player/AnimWalk/mainheroWalk3.png
-  artifactKey: Guid(dece8dfbbc1e73d4aa86eab62c906c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/AnimWalk/mainheroWalk3.png using Guid(dece8dfbbc1e73d4aa86eab62c906c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1469a1cd57f933ce51838272db673') in 0.084328 seconds 
+  Time since last request: 9.125528 seconds.
+  path: Assets/Sprites/Player/run sword.png
+  artifactKey: Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/run sword.png using Guid(5ea52f0fbf6983641af065d2fc13dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bd37770c153fab71a7f1d082849216') in 0.042587 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006696 seconds.
+Registered in 0.005299 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.739 seconds
+- Completed reload, in  1.375 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4010.
-Total: 4.072400 ms (FindLiveObjects: 0.440300 ms CreateObjectMapping: 0.130600 ms MarkObjects: 3.467400 ms  DeleteObjects: 0.032600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005673 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.548 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4013.
-Total: 5.634400 ms (FindLiveObjects: 0.772300 ms CreateObjectMapping: 0.481200 ms MarkObjects: 4.343900 ms  DeleteObjects: 0.034900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4016.
-Total: 5.232900 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.146600 ms MarkObjects: 4.558500 ms  DeleteObjects: 0.084400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.445 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4019.
-Total: 5.631900 ms (FindLiveObjects: 0.492200 ms CreateObjectMapping: 0.270900 ms MarkObjects: 4.822100 ms  DeleteObjects: 0.044700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 634.082666 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae3a659232a73667d4e195401729a74') in 0.137421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 115.518860 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14212ceef618ca4fb515fb13749cb69') in 0.049509 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.1 MB.
-System memory in use after: 136.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4051.
-Total: 4.129300 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.137500 ms MarkObjects: 3.499800 ms  DeleteObjects: 0.035400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.754864 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6396e351ca4d9556ab3778e2ad603bb') in 0.102282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.051291 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11665503ca0f8c37b094e4da4b16048') in 0.033704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.709710 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6473e2e990e4763c14c24f795e71946') in 0.048864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.767601 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514425160f7d8d51d4fb838794b867d1') in 0.034537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.852091 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2581b31be2aab6f55f728944f036b0e') in 0.036092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.700470 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6031f2dab44f7b699e5c40657d5af26') in 0.022256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.198442 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c979f781fd959695f7088f7c7166aea') in 0.019076 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008265 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 139.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4157.
-Total: 20.969300 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.144900 ms MarkObjects: 20.389800 ms  DeleteObjects: 0.032300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.760773 seconds.
-  path: Assets/Sprites/Player/playermodeIdlelSword1.png
-  artifactKey: Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/playermodeIdlelSword1.png using Guid(bc9853b24369cc64496b7aab2ed75410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288d0e6be22d4b708952843e68ffa05') in 0.106186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.734239 seconds.
-  path: Assets/Sprites/Player/Sprite-0001.aseprite
-  artifactKey: Guid(6a4fe30835c0f164aa647a750d9ab309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Sprite-0001.aseprite using Guid(6a4fe30835c0f164aa647a750d9ab309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fee327ada2270dd33ad4c3f1c7c369') in 0.018278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.272618 seconds.
-  path: Assets/Sprites/Player/Sprite-0001.png
-  artifactKey: Guid(ddeeb38cad5906946ba67393eb23f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Sprite-0001.png using Guid(ddeeb38cad5906946ba67393eb23f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ad56a8f5afaa796801ff64d882097f') in 0.042697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.803315 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba692718718d72f3a6d280508c20b41') in 0.031710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.849892 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef26d64ad3fff2248a013cf7ac32d56') in 0.033555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.356799 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61258925efe1c6121a361e10cafd42a1') in 0.049437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.443315 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3d0057db57a438a2831a4ae3661aa3') in 0.041522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 166.462090 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fad46eea2b450bbfde2fc217e51727') in 0.050301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.652188 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11457fd6cf9dc10417429dc69130e4d') in 0.026069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.574190 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d282346bc925240f96c3b333d344f8') in 0.077200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.079499 seconds.
-  path: Assets/Sprites/Player/IdleSword1.png
-  artifactKey: Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/IdleSword1.png using Guid(9dd47bb8542d8654599a1d829c4b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2b0ea9f6b77d0e0fc60d27eb7195ba') in 0.033758 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.2 MB.
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4306.
-Total: 4.113800 ms (FindLiveObjects: 0.525800 ms CreateObjectMapping: 0.160300 ms MarkObjects: 3.395800 ms  DeleteObjects: 0.029800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 4.887600 ms (FindLiveObjects: 0.564900 ms CreateObjectMapping: 0.283900 ms MarkObjects: 4.002800 ms  DeleteObjects: 0.034200 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.069 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4309.
-Total: 6.730100 ms (FindLiveObjects: 1.093400 ms CreateObjectMapping: 0.575000 ms MarkObjects: 5.016600 ms  DeleteObjects: 0.042700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008390 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4312.
-Total: 3.850200 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.125200 ms MarkObjects: 3.268100 ms  DeleteObjects: 0.030300 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
