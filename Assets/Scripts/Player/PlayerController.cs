@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
                 Flip();
             }
         }
-
+        
         if (grounded && jump) 
         {
             grounded = false;
@@ -141,8 +141,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("IsJumping", true);
         }
-    }
-    
+    }   
     private void Flip()
     {
         facingRight = !facingRight;
