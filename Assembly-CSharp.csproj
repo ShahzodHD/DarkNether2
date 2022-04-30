@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCombat.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealthSystem.cs" />
+    <Compile Include="Assets\Scripts\Player\Checker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
