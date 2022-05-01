@@ -600,7 +600,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.71875, y: 1.15625}
+    oldSize: {x: 0.84375, y: 1.09375}
     newSize: {x: 0.71875, y: 1.15625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -691,7 +691,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.71875, y: 1.15625}
+    oldSize: {x: 0.84375, y: 1.09375}
     newSize: {x: 0.71875, y: 1.15625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -785,11 +785,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1620599227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa24982b249d3b6438566db166603c0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 958bfa99ebd48b74dacf29e83e7b383e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 1620599231}
-  _playerController: {fileID: 1620599232}
   _animator: {fileID: 1620599229}
 --- !u!1 &1994628268
 GameObject:
@@ -803,7 +802,7 @@ GameObject:
   m_Layer: 6
   m_Name: AttackPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -815,7 +814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994628268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41, y: 0.483, z: 0}
+  m_LocalPosition: {x: -0.458, y: 0.681, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1620599228}
