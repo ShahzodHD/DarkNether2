@@ -24,6 +24,14 @@ public class EnemyHealthSystem : MonoBehaviour
     private void Die()
     {
         _animator.SetTrigger("Death");
-        Debug.Log("Enemy died!");
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<EnemyAI>().enabled = false;
+        Invoke("Faded", 6);
+    }
+
+    private void Faded()
+    {
+        Destroy(gameObject);
     }
 }
