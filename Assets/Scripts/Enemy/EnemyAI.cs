@@ -2,17 +2,19 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+
     [SerializeField] private float speed;
     [SerializeField] private float distanceBeforePlayer;
     [SerializeField] private float globalDistance;
     [SerializeField] private float coolDown;
     [SerializeField] private int damage;
-    [SerializeField] private float attackRange;
 
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask playerLayers;
     [SerializeField] private Transform target;
+
     [SerializeField] private Animator animator;
+    [SerializeField] private Rigidbody2D rb;
 
     [SerializeField] private Vector2 sizeRange;
     [SerializeField] private float angleRange;
@@ -32,6 +34,14 @@ public class EnemyAI : MonoBehaviour
     }
     private void Follow()
     {
+        if (rb.velocity.magnitude > 0)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
         if (Vector2.Distance(transform.position, target.position) > distanceBeforePlayer)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
@@ -66,7 +76,6 @@ public class EnemyAI : MonoBehaviour
     {
         canAttacked = true;
     }
-
 
     private void Attack()
     {
