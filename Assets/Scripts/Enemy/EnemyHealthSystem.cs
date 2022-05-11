@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    [SerializeField] private Animator animator;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -20,10 +20,12 @@ public class EnemyHealthSystem : MonoBehaviour
         {
             Die();
         }
+
+        animator.SetTrigger("TakeDamage");
     }
     private void Die()
     {
-        _animator.SetTrigger("Death");
+        animator.SetTrigger("Death");
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<EnemyAI>().enabled = false;

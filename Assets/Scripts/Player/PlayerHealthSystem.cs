@@ -14,13 +14,14 @@ public class PlayerHealthSystem : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        print(damage);
         currentHealth -= damage;
 
         if (currentHealth <= 0)
         {
             Die();
         }
+
+        animator.SetTrigger("TakeDamage");
     }
     private void Die()
     {
