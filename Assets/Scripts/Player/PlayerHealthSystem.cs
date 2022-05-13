@@ -4,6 +4,7 @@ public class PlayerHealthSystem : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject deadBody;
+    [SerializeField] private HealthBar healthBar;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -11,10 +12,13 @@ public class PlayerHealthSystem : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        healthBar.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {

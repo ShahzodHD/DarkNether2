@@ -13,16 +13,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform ceilingCheck;
+    [SerializeField] private Vector2 sizeRadios;
     [SerializeField] private Collider2D crouchDisableCollider;
     [SerializeField] private Animator animator;
 
     [HideInInspector] public bool grounded;
 
-    const float groundedRadios = .2f;
     const float ceilingRadius = .2f;
     private Rigidbody2D rb;
     private bool facingRight = true;
     private Vector3 velocity = Vector3.zero;
+
 
     [Header("Events")]
 
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
         bool wasGrounded = grounded;
         grounded = false;
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundedRadios, whatIsGround);
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(groundCheck.position, sizeRadios, whatIsGround);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
@@ -68,6 +69,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireCube(groundCheck.position, sizeRadios);
+    }
+
 
     public void Move(float move, bool crouch, bool jump)
     {
