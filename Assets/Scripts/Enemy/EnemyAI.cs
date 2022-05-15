@@ -23,6 +23,8 @@ public class EnemyAI : MonoBehaviour
     private float _speed;
     private void Start()
     {
+        Physics2D.IgnoreLayerCollision(10, 10, true);
+
         _speed = speed;
     }
     private void Update()
@@ -44,7 +46,7 @@ public class EnemyAI : MonoBehaviour
         }
         if (Vector2.Distance(transform.position, target.position) > distanceBeforePlayer)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
         }
     }
     private void Flip()
@@ -64,6 +66,7 @@ public class EnemyAI : MonoBehaviour
         {
             animator.SetTrigger("Attack");
             animator.ResetTrigger("TakeDamage");
+
             canAttacked = false;
             _speed = 0;
         }

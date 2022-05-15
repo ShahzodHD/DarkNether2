@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Vector2 sizeRadios;
     [SerializeField] private Collider2D crouchDisableCollider;
     [SerializeField] private Animator animator;
+    [SerializeField] private VectorValue playerPosition;
 
     [HideInInspector] public bool grounded;
 
@@ -37,6 +38,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        transform.position = playerPosition.initialValue;
         rb = GetComponent<Rigidbody2D>();
 
         if (OnLandEvent == null)
@@ -47,16 +49,15 @@ public class PlayerController : MonoBehaviour
         {
             onCrouchEvent = new BoolEvent();
         }
-
-        Physics.IgnoreLayerCollision(10, 6, true);
     }
 
     private void FixedUpdate()
     {
+
         bool wasGrounded = grounded;
         grounded = false;
 
-        Collider2D[] colliders = Physics2D.OverlapBoxAll(groundCheck.position, sizeRadios, whatIsGround);
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(groundCheck.position, sizeRadios, 0, whatIsGround);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
