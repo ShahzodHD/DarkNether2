@@ -1,8 +1,12 @@
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
-{
-
+{   
+    /// <summary>
+    /// 15.05.22 »справить 2 бага с догом
+    /// 1) скорость увеличиваетс€ после 1 удара
+    /// 2) правильно настроить коллайдеры и чекбоксы собаки
+    /// </summary>
     [SerializeField] private float speed;
     [SerializeField] private float distanceBeforePlayer;
     [SerializeField] private float globalDistance;
@@ -12,6 +16,8 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask playerLayers;
     [SerializeField] private Transform target;
+    [SerializeField] private Vector3 flipRight;
+    [SerializeField] private Vector3 flipLeft;
 
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
@@ -21,7 +27,7 @@ public class EnemyAI : MonoBehaviour
 
     private bool canAttacked = true;
     private float _speed;
-    private void Start()
+    private void Start()    
     {
         Physics2D.IgnoreLayerCollision(10, 10, true);
 
@@ -53,11 +59,11 @@ public class EnemyAI : MonoBehaviour
     {
         if (transform.position.x < target.position.x)
         {
-            transform.localScale = new Vector3(2, 2, 2);
+            transform.localScale = new Vector3(flipRight.x, flipRight.y, flipRight.z);
         }
         else
         {
-            transform.localScale = new Vector3(-2, 2, 2);
+            transform.localScale = new Vector3(flipLeft.x, flipLeft.y, flipLeft.z);
         }
     }
     private void AttacKCount()
