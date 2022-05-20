@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: e7d84c59adeb57b4084bca733d2aabbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8430530888307974296
+    second: Decor-Lamp
+  - first:
+      213: 2430818430097389716
+    second: Decor-Flag
+  - first:
+      213: -5258127527427348598
+    second: Decor-Jug
+  - first:
+      213: 2079272113984747273
+    second: Decor-Plant
+  - first:
+      213: -8389084966051136045
+    second: Decor-Plant1
+  - first:
+      213: -1677998805483839266
+    second: Decor-Chest
+  - first:
+      213: -5671611136979205528
+    second: Decor-Potions
+  - first:
+      213: 8338549558062662350
+    second: Decor-Potions1
+  - first:
+      213: 2231368693673302504
+    second: DecorMug
+  - first:
+      213: -7379688939248785950
+    second: DecorCart
+  - first:
+      213: 2673680666413536599
+    second: DecorRock
+  - first:
+      213: -6396590079813287523
+    second: Decor-Bottle
+  - first:
+      213: -5512666768650007696
+    second: DecorWell
+  - first:
+      213: -4412682748338870345
+    second: DecorBox
+  - first:
+      213: -2926844053938886293
+    second: DecorLittleRock
+  - first:
+      213: -1918780029313859471
+    second: DecorLittleRock1
+  - first:
+      213: -5963759301148852895
+    second: DecorRock2
+  - first:
+      213: 6191491401998133380
+    second: DecorRock1
+  - first:
+      213: 1551141501528182873
+    second: DecorBasket
+  - first:
+      213: -6730537091321514724
+    second: DecorLittleRock2
+  - first:
+      213: -902777477484106928
+    second: DecorLittleRock3
+  - first:
+      213: 661163134292655514
+    second: DecorRock3
+  - first:
+      213: 5912114823208525861
+    second: DecorBarrel
+  - first:
+      213: 3184322322895612079
+    second: DecorBucket
+  - first:
+      213: 5624491480898863051
+    second: DecorGreen
+  - first:
+      213: 4558924583893803880
+    second: DecorBasket1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decor-Lamp
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 154
+        width: 67
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd17ee2dcb00b80800000000000000
+      internalID: -8430530888307974296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Flag
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 122
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4987d6fab700cb120800000000000000
+      internalID: 2430818430097389716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Jug
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 113
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a876dff5fd06707b0800000000000000
+      internalID: -5258127527427348598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Plant
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 124
+        width: 24
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907bf61a8fe0bdc10800000000000000
+      internalID: 2079272113984747273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Plant1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 121
+        width: 25
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddb3ffababf39b80800000000000000
+      internalID: -8389084966051136045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Chest
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 120
+        width: 47
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed02b911afc86b8e0800000000000000
+      internalID: -1677998805483839266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Potions
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 88
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862843c68b36a41b0800000000000000
+      internalID: -5671611136979205528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Potions1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 88
+        width: 8
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2c05eb4aa78b370800000000000000
+      internalID: 8338549558062662350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorMug
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 92
+        width: 23
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9135d210a67fe10800000000000000
+      internalID: 2231368693673302504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorCart
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 83
+        width: 54
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5623f4204169990800000000000000
+      internalID: -7379688939248785950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorRock
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 81
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755986c7662da1520800000000000000
+      internalID: 2673680666413536599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor-Bottle
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 77
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9101f6863fba37a0800000000000000
+      internalID: -6396590079813287523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorWell
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 73
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b048108c21f73b0800000000000000
+      internalID: -5512666768650007696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorBox
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 50
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b764c67b6003c2c0800000000000000
+      internalID: -4412682748338870345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorLittleRock
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 58
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69220c07d2c167d0800000000000000
+      internalID: -2926844053938886293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorLittleRock1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 59
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17042aebabf1f55e0800000000000000
+      internalID: -1918780029313859471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorRock2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 44
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d371153887c3da0800000000000000
+      internalID: -5963759301148852895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorRock1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 60
+        width: 20
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ebfd40a89ce550800000000000000
+      internalID: 6191491401998133380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorBasket
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 45
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95014f23af2c68510800000000000000
+      internalID: 1551141501528182873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorLittleRock2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15b034ec245892a0800000000000000
+      internalID: -6730537091321514724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorLittleRock3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 44
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b2657daa0b873f0800000000000000
+      internalID: -902777477484106928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorRock3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 41
+        width: 20
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9df81e1e5cec2900800000000000000
+      internalID: 661163134292655514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorBarrel
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5206aa4ab1d0c0250800000000000000
+      internalID: 5912114823208525861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorBucket
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 6
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa82a8a084cf03c20800000000000000
+      internalID: 3184322322895612079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorGreen
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 53
+        height: 34
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfff29b3353e0e40800000000000000
+      internalID: 5624491480898863051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorBasket1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86329cc31cd844f30800000000000000
+      internalID: 4558924583893803880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
