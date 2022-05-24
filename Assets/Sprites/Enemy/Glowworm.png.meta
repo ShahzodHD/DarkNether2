@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 05ecaf55d19f743469575a2924b83ba1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4464099907873652875
+    second: Glowworm_Attack0
+  - first:
+      213: 4588879396950250061
+    second: Glowworm_Attack1
+  - first:
+      213: 5806692076420025199
+    second: Glowworm_Attack2
+  - first:
+      213: 1434968811353611037
+    second: Glowworm_Attack3
+  - first:
+      213: 704773382783472364
+    second: Glowworm_4
+  - first:
+      213: 560869307905199261
+    second: Glowworm_5
+  - first:
+      213: -5525692494203023881
+    second: Glowworm_6
+  - first:
+      213: -4510484729255197677
+    second: Glowworm_7
+  - first:
+      213: -2851653243177760233
+    second: Glowworm_8
+  - first:
+      213: -5578526418952310072
+    second: Glowworm_9
+  - first:
+      213: 9008914540413130247
+    second: Glowworm_Death0
+  - first:
+      213: -6041781439557385177
+    second: Glowworm_11
+  - first:
+      213: -4288612599575570146
+    second: Glowworm_12
+  - first:
+      213: 3839698922157983271
+    second: Glowworm_Death2
+  - first:
+      213: 1979645895548315694
+    second: Glowworm_Death1
+  - first:
+      213: 8334465717342182486
+    second: Glowworm_Death3
+  - first:
+      213: -5518525409306898202
+    second: Glowworm_Death4
+  - first:
+      213: -77151178533380795
+    second: Glowworm_Death5
+  - first:
+      213: 2704233576979923617
+    second: Glowworm_TakeDmg0
+  - first:
+      213: 649877439710522043
+    second: Glowworm_TakeDmg1
+  - first:
+      213: 6704963792314620924
+    second: Glowworm_Idle0
+  - first:
+      213: 2196505147174847634
+    second: Glowworm_Idle1
+  - first:
+      213: -8471666578019267892
+    second: Glowworm_Idle2
+  - first:
+      213: 1797016447819817489
+    second: Glowworm_Idle3
+  - first:
+      213: -7776204206397467502
+    second: Glowworm_Walk0
+  - first:
+      213: -1415002287259644801
+    second: Glowworm_Walk1
+  - first:
+      213: 3446751350568888027
+    second: Glowworm_Walk2
+  - first:
+      213: 303224082056502966
+    second: Glowworm_Walk3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glowworm_Attack0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 804
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80c9a2e63ba3fd30800000000000000
+      internalID: 4464099907873652875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Attack1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 796
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421454af79feaf30800000000000000
+      internalID: 4588879396950250061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Attack2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 812
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b4717ada3859050800000000000000
+      internalID: 5806692076420025199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Attack3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 808
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b1f78f7880ae310800000000000000
+      internalID: 1434968811353611037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 612
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7061d211b08160d70800000000000000
+      internalID: 9008914540413130247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 608
+        width: 68
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7264dab73d9594530800000000000000
+      internalID: 3839698922157983271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 608
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28a731147d197b10800000000000000
+      internalID: 1979645895548315694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 608
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1ada7968f9a370800000000000000
+      internalID: 8334465717342182486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death4
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 608
+        width: 60
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e09b4ee0624a63b0800000000000000
+      internalID: -5518525409306898202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Death5
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 608
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd3817967edeef0800000000000000
+      internalID: -77151178533380795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_TakeDmg0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 428
+        width: 88
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a282915c1e578520800000000000000
+      internalID: 2704233576979923617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_TakeDmg1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 424
+        width: 100
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba6c759614d40900800000000000000
+      internalID: 649877439710522043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 228
+        width: 99
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd4c07b01dc0d50800000000000000
+      internalID: 6704963792314620924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Idle1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 224
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948ca43bcd8b7e10800000000000000
+      internalID: 2196505147174847634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Idle2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 228
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccacc91d1289e6a80800000000000000
+      internalID: -8471666578019267892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Idle3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 232
+        width: 100
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112a5d330f840f810800000000000000
+      internalID: 1797016447819817489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 99
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294d7c0797f551490800000000000000
+      internalID: -7776204206397467502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Walk1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 32
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c068faae6ec5ce0800000000000000
+      internalID: -1415002287259644801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Walk2
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 40
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6a1c7771255df20800000000000000
+      internalID: 3446751350568888027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowworm_Walk3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 40
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be525232b4453400800000000000000
+      internalID: 303224082056502966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

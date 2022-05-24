@@ -2,11 +2,6 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {   
-    /// <summary>
-    /// 15.05.22 »справить 2 бага с догом
-    /// 1) скорость увеличиваетс€ после 1 удара
-    /// 2) правильно настроить коллайдеры и чекбоксы собаки
-    /// </summary>
     [SerializeField] private float speed;
     [SerializeField] private float distanceBeforePlayer;
     [SerializeField] private float globalDistance;
@@ -30,6 +25,10 @@ public class EnemyAI : MonoBehaviour
     private void Start()    
     {
         Physics2D.IgnoreLayerCollision(10, 10, true);
+
+        rb = GetComponent<Rigidbody2D>();
+
+        target = GameObject.Find("Player").transform;
 
         _speed = speed;
     }

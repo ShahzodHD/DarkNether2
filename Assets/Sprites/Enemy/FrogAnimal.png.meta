@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: dc5374542315f40419eaae86b2c94048
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5629922740117831428
+    second: FrogAnimal_Attack0
+  - first:
+      213: 1229321643162055467
+    second: FrogAnimal_Attack1
+  - first:
+      213: 8553779990981327646
+    second: FrogAnimal_Attack2
+  - first:
+      213: -2037634781633284130
+    second: FrogAnimal_Attack3
+  - first:
+      213: -3885799980544893339
+    second: FrogAnimal_Death0
+  - first:
+      213: -1516143949090564763
+    second: FrogAnimal_Death1
+  - first:
+      213: 4523988417137199513
+    second: FrogAnimal_Death2
+  - first:
+      213: 5611589026575413415
+    second: FrogAnimal_Death3
+  - first:
+      213: 6635925951605265878
+    second: FrogAnimal_TakeDmg0
+  - first:
+      213: -9027210199821109807
+    second: FrogAnimal_TakeDmg1
+  - first:
+      213: -1618602557654723640
+    second: FrogAnimal_Idle0
+  - first:
+      213: 8977973656601729237
+    second: FrogAnimal_Idle1
+  - first:
+      213: 7659755526053755101
+    second: FrogAnimal_Idle2
+  - first:
+      213: -9125384439302709115
+    second: FrogAnimal_Idle3
+  - first:
+      213: -8134106789639871437
+    second: FrogAnimal_Run0
+  - first:
+      213: -6114087482169084121
+    second: FrogAnimal_Run1
+  - first:
+      213: -2513000418820539622
+    second: FrogAnimal_Run2
+  - first:
+      213: -8608548091310900181
+    second: FrogAnimal_Run3
+  - first:
+      213: 4433737168564192219
+    second: FrogAnimal_Run4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FrogAnimal_Attack0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 800
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ffd9d47e0812e40800000000000000
+      internalID: 5629922740117831428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Attack1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 800
+        width: 108
+        height: 84
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23bf5f658d6f0110800000000000000
+      internalID: 1229321643162055467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Attack2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 800
+        width: 184
+        height: 76
+      alignment: 9
+      pivot: {x: 0.71, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b3949f49125b670800000000000000
+      internalID: 8553779990981327646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Attack3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 800
+        width: 140
+        height: 80
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed774c246fdd8b3e0800000000000000
+      internalID: -2037634781633284130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Death0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 608
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ed66b618dd21ac0800000000000000
+      internalID: -3885799980544893339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Death1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 608
+        width: 120
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56559167c1395fae0800000000000000
+      internalID: -1516143949090564763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Death2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 608
+        width: 124
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c17b0f7f68ce30800000000000000
+      internalID: 4523988417137199513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Death3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 608
+        width: 132
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f18afc7e50ed40800000000000000
+      internalID: 5611589026575413415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_TakeDmg0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 416
+        width: 108
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d55a3d8e7b871c50800000000000000
+      internalID: 6635925951605265878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_TakeDmg1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 416
+        width: 112
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d531e6c628e8b280800000000000000
+      internalID: -9027210199821109807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Idle0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3937eac819989e0800000000000000
+      internalID: -1618602557654723640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Idle1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 224
+        width: 112
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d89f8c297b289c70800000000000000
+      internalID: 8977973656601729237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Idle2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 224
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8f4cc511bec4a60800000000000000
+      internalID: 7659755526053755101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Idle3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 224
+        width: 124
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802c78633f1c5180800000000000000
+      internalID: -9125384439302709115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Run0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3342c6e98f8dd1f80800000000000000
+      internalID: -8134106789639871437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Run1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 32
+        width: 124
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72736ab24d5662ba0800000000000000
+      internalID: -6114087482169084121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Run2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 32
+        width: 120
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3bcbfe67002dd0800000000000000
+      internalID: -2513000418820539622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Run3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 36
+        width: 128
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cfb89fe1b488880800000000000000
+      internalID: -8608548091310900181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogAnimal_Run4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 44
+        width: 128
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd307bfb67cc78d30800000000000000
+      internalID: 4433737168564192219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
