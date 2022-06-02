@@ -4,70 +4,70 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2820143329777312509
-    second: Frog_0
+    second: Frog_Attack0
   - first:
       213: -1081280975163990012
-    second: Frog_1
+    second: Frog_Attack1
   - first:
       213: -8937333279313398460
-    second: Frog_2
+    second: Frog_Attack2
   - first:
       213: 2012254204448798509
-    second: Frog_3
+    second: Frog_Attack3
   - first:
       213: -3072931601937957618
-    second: Frog_4
+    second: Frog_Attack4
   - first:
       213: -4292050155679725338
-    second: Frog_5
+    second: Frog_Attack5
   - first:
       213: -3970644508504664309
-    second: Frog_6
+    second: Frog_Death0
   - first:
       213: -8854543777015069593
-    second: Frog_7
+    second: Frog_Death1
   - first:
       213: 5987630775561802436
-    second: Frog_8
+    second: Frog_Death2
   - first:
       213: 8438832885612460969
-    second: Frog_9
+    second: Frog_Death3
   - first:
       213: -4805192828009921456
-    second: Frog_10
+    second: Frog_Hurt0
   - first:
       213: -5624443169046941588
-    second: Frog_11
+    second: Frog_Hurt1
   - first:
       213: -7726520944256971334
-    second: Frog_12
+    second: Frog_Idle0
   - first:
       213: -6960719496521352972
-    second: Frog_13
+    second: Frog_Idle1
   - first:
       213: -8477903332169468010
-    second: Frog_14
+    second: Frog_Idle2
   - first:
       213: 68971895286123925
-    second: Frog_15
+    second: Frog_Idle3
   - first:
       213: -1740013186970678990
-    second: Frog_16
+    second: Frog_Run0
   - first:
       213: 7342286843653349946
-    second: Frog_17
+    second: Frog_Run1
   - first:
       213: 7990478588194017560
-    second: Frog_18
+    second: Frog_Run2
   - first:
       213: 3068762423293090443
-    second: Frog_19
+    second: Frog_Run3
   - first:
       213: 4276901479937904
-    second: Frog_20
+    second: Frog_Run4
   - first:
       213: -9218276507229791443
-    second: Frog_21
+    second: Frog_Run5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -181,7 +181,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Frog_0
+      name: Frog_Attack0
       rect:
         serializedVersion: 2
         x: 12
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_1
+      name: Frog_Attack1
       rect:
         serializedVersion: 2
         x: 228
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_2
+      name: Frog_Attack2
       rect:
         serializedVersion: 2
         x: 440
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_3
+      name: Frog_Attack3
       rect:
         serializedVersion: 2
         x: 548
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_4
+      name: Frog_Attack4
       rect:
         serializedVersion: 2
         x: 748
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_5
+      name: Frog_Attack5
       rect:
         serializedVersion: 2
         x: 952
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_6
+      name: Frog_Death0
       rect:
         serializedVersion: 2
         x: 12
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_7
+      name: Frog_Death1
       rect:
         serializedVersion: 2
         x: 188
@@ -349,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_8
+      name: Frog_Death2
       rect:
         serializedVersion: 2
         x: 380
@@ -370,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_9
+      name: Frog_Death3
       rect:
         serializedVersion: 2
         x: 564
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_10
+      name: Frog_Hurt0
       rect:
         serializedVersion: 2
         x: 20
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_11
+      name: Frog_Hurt1
       rect:
         serializedVersion: 2
         x: 212
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_12
+      name: Frog_Idle0
       rect:
         serializedVersion: 2
         x: 12
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_13
+      name: Frog_Idle1
       rect:
         serializedVersion: 2
         x: 204
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_14
+      name: Frog_Idle2
       rect:
         serializedVersion: 2
         x: 400
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_15
+      name: Frog_Idle3
       rect:
         serializedVersion: 2
         x: 592
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_16
+      name: Frog_Run0
       rect:
         serializedVersion: 2
         x: 44
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_17
+      name: Frog_Run1
       rect:
         serializedVersion: 2
         x: 224
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_18
+      name: Frog_Run2
       rect:
         serializedVersion: 2
         x: 400
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_19
+      name: Frog_Run3
       rect:
         serializedVersion: 2
         x: 588
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_20
+      name: Frog_Run4
       rect:
         serializedVersion: 2
         x: 784
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frog_21
+      name: Frog_Run5
       rect:
         serializedVersion: 2
         x: 992

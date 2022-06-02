@@ -19,7 +19,7 @@ public class TransitionScene : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         firstStart = false;
-        SceneManager.LoadScene(transitionScene);
         playerStorage.initialValue = spawnPosition;
+        SceneManager.LoadScene(transitionScene);
     }
 }

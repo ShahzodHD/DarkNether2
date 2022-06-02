@@ -3,26 +3,26 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {   
     [SerializeField] private float speed;
-    [SerializeField] private float distanceBeforePlayer;
+    [SerializeField] private protected float distanceBeforePlayer;
     [SerializeField] private float globalDistance;
     [SerializeField] private float coolDown;
     [SerializeField] private int damage;
 
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask playerLayers;
-    [SerializeField] private Transform target;
+    [SerializeField] private protected Transform target;
     [SerializeField] private Vector3 flipRight;
     [SerializeField] private Vector3 flipLeft;
 
-    [SerializeField] private Animator animator;
+    [SerializeField] private protected Animator animator;
     [SerializeField] private Rigidbody2D rb;
 
     [SerializeField] private Vector2 sizeRange;
     [SerializeField] private float angleRange;
 
-    private bool canAttacked = true;
-    private float _speed;
-    private void Start()    
+    private protected bool canAttacked = true;
+    private protected float _speed;
+    private protected void Start()    
     {
         Physics2D.IgnoreLayerCollision(10, 10, true);
 
@@ -32,14 +32,14 @@ public class EnemyAI : MonoBehaviour
 
         _speed = speed;
     }
-    private void Update()
+    private protected void Update()
     {
         if (Vector2.Distance(transform.position,target.position) < globalDistance){ Follow(); }
 
         Flip();
         AttacKCount();
     }
-    private void Follow()
+    private protected void Follow()
     {
         if (rb.velocity.magnitude > 0)
         {
@@ -54,7 +54,7 @@ public class EnemyAI : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
         }
     }
-    private void Flip()
+    private protected void Flip()
     {
         if (transform.position.x < target.position.x)
         {
@@ -65,7 +65,7 @@ public class EnemyAI : MonoBehaviour
             transform.localScale = new Vector3(flipLeft.x, flipLeft.y, flipLeft.z);
         }
     }
-    private void AttacKCount()
+    public virtual void AttacKCount()
     {
         if (Vector2.Distance(transform.position, target.position) < distanceBeforePlayer && canAttacked == true) 
         {
@@ -76,19 +76,19 @@ public class EnemyAI : MonoBehaviour
             _speed = 0;
         }
     }
-    private void EndAttack()
+    private protected void EndAttack()
     {
         Invoke("Overcharge", coolDown);
         _speed = speed;
 
         animator.ResetTrigger("TakeDamage");
     }
-    private void Overcharge()
+    private protected void Overcharge()
     {
         canAttacked = true;
     }
 
-    private void Attack()
+    private protected void Attack()
     {
         Collider2D[] hitPlayer = Physics2D.OverlapBoxAll(attackPoint.position, sizeRange, angleRange, playerLayers);
 
@@ -97,7 +97,7 @@ public class EnemyAI : MonoBehaviour
             player.GetComponent<PlayerHealthSystem>().TakeDamage(damage);
         }
     }
-    private void OnDrawGizmosSelected()
+    private protected void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
         {
