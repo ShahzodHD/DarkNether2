@@ -1,8 +1,10 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -21,8 +23,17 @@ public class EnemyHealthSystem : MonoBehaviour
             Die();
         }
 
-        animator.SetTrigger("TakeDamage");
+        StartCoroutine("Hurt");
     }
+
+    IEnumerator Hurt()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        spriteRenderer.color = Color.white;
+        yield return null;
+    }
+
     private void Die()
     {
         animator.SetTrigger("Death");

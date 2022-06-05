@@ -70,10 +70,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireCube(groundCheck.position, sizeRadios);
-    }
 
 
     public void Move(float move, bool crouch, bool jump)
@@ -156,5 +152,9 @@ public class PlayerController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireCube(groundCheck.position, sizeRadios);
     }
 }

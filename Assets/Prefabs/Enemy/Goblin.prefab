@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 2391907344742439017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.47, y: 1.6819639, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 0}
   m_Children:
   - {fileID: 2391907344193708519}
   m_Father: {fileID: 0}
@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2391907344742439020}
+  spriteRenderer: {fileID: 2391907344742439016}
   maxHealth: 100
 --- !u!114 &2391907344742439022
 MonoBehaviour:
@@ -221,8 +222,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   target: {fileID: 0}
-  flipRight: {x: -1, y: 1, z: -1}
-  flipLeft: {x: 1, y: 1, z: -1}
+  flipRight: {x: -1.3, y: 1.3, z: -1}
+  flipLeft: {x: 1.3, y: 1.3, z: -1}
   animator: {fileID: 2391907344742439020}
   rb: {fileID: 2391907344742439011}
   sizeRange: {x: 0.98, y: 1.28}

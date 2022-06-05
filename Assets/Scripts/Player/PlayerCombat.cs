@@ -41,7 +41,7 @@ public class PlayerCombat : MonoBehaviour
 
         Invoke("AfterAttack", 0.3f);
     }
-    private void AfterAttack() 
+    public void AfterAttack() 
     { 
         playerMovement.runSpeed = 25;
     }

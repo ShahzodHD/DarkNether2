@@ -258,6 +258,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   deadBody: {fileID: 2160133022759081853, guid: fbeed45d79ce19843bf75ce6a0dfe653, type: 3}
   healthBar: {fileID: 0}
+  playerCombat: {fileID: 7376918786214475943}
   maxHealth: 100
 --- !u!1 &7376918786450113999
 GameObject:

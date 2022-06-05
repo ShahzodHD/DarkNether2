@@ -70,7 +70,6 @@ public class EnemyAI : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) < distanceBeforePlayer && canAttacked == true) 
         {
             animator.SetTrigger("Attack");
-            animator.ResetTrigger("TakeDamage");
 
             canAttacked = false;
             _speed = 0;
@@ -80,8 +79,6 @@ public class EnemyAI : MonoBehaviour
     {
         Invoke("Overcharge", coolDown);
         _speed = speed;
-
-        animator.ResetTrigger("TakeDamage");
     }
     private protected void Overcharge()
     {

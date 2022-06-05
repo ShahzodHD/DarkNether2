@@ -5,6 +5,7 @@ public class PlayerHealthSystem : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject deadBody;
     [SerializeField] private HealthBar healthBar;
+    [SerializeField] private PlayerCombat playerCombat;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -26,6 +27,7 @@ public class PlayerHealthSystem : MonoBehaviour
         }
 
         animator.SetTrigger("TakeDamage");
+        playerCombat.AfterAttack();
     }
     private void Die()
     {

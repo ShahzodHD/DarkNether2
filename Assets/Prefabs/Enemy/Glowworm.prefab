@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5378128955977469973}
+  spriteRenderer: {fileID: 5378128955977469968}
   maxHealth: 100
 --- !u!114 &5378128955977469998
 MonoBehaviour:

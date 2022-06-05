@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5676235912120584020}
+  spriteRenderer: {fileID: 5676235912120584022}
   maxHealth: 100
 --- !u!114 &5676235912120584043
 MonoBehaviour:
@@ -212,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  distanceBeforePlayer: 1.7
+  distanceBeforePlayer: 1.4
   globalDistance: 10
   coolDown: 1
   damage: 20

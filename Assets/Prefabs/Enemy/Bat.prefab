@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 9207878683874921586}
+  spriteRenderer: {fileID: 9207878683874921599}
   maxHealth: 60
 --- !u!114 &9207878683874921584
 MonoBehaviour:
@@ -194,7 +195,7 @@ MonoBehaviour:
   flipRight: {x: -1, y: 1, z: -1}
   flipLeft: {x: 1, y: 1, z: -1}
   animator: {fileID: 9207878683874921586}
-  rb: {fileID: 0}
+  rb: {fileID: 9207878683874921597}
   sizeRange: {x: 1.2, y: 2.44}
   angleRange: 0
 --- !u!1 &9207878685063944281

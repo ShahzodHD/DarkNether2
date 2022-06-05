@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5955955760611223835}
   - component: {fileID: 5955955760611223838}
   - component: {fileID: 5955955760611223833}
-  - component: {fileID: 5955955760611223836}
+  - component: {fileID: -4157248883352231481}
   m_Layer: 10
   m_Name: EnemyImp
   m_TagString: Untagged
@@ -198,8 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5955955760611223838}
+  spriteRenderer: {fileID: 5955955760611223845}
   maxHealth: 100
---- !u!114 &5955955760611223836
+--- !u!114 &-4157248883352231481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,11 +209,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5955955760611223844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273053536938dc64ca19830fa1fa4e88, type: 3}
+  m_Script: {fileID: 11500000, guid: 75c580461601d2a44a9f0da14e492093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  distanceBeforePlayer: 3
+  distanceBeforePlayer: 2
   globalDistance: 10
   coolDown: 2
   damage: 20
@@ -221,6 +222,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   target: {fileID: 0}
+  flipRight: {x: 2, y: 2, z: -0.9}
+  flipLeft: {x: -2, y: 2, z: -0.9}
   animator: {fileID: 5955955760611223838}
   rb: {fileID: 5955955760611223835}
   sizeRange: {x: 3, y: 1.35}
