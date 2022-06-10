@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl9 Devil.unity
     guid: 6403dd43dbbf3a44e8c4f87204ac89ae
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 494325af80a090f448a5cd78033e6491
   m_configObjects: {}
