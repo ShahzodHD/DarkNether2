@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  distanceBeforePlayer: 2
+  distanceBeforePlayer: 1.5
   globalDistance: 10
   coolDown: 1
   damage: 20
