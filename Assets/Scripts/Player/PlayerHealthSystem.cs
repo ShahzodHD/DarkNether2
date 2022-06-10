@@ -4,6 +4,7 @@ public class PlayerHealthSystem : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject deadBody;
+    [SerializeField] private GameObject deathMenuUI;
     [SerializeField] private HealthBar healthBar;
     [SerializeField] private PlayerCombat playerCombat;
 
@@ -34,5 +35,6 @@ public class PlayerHealthSystem : MonoBehaviour
         animator.SetTrigger("Death");
         Instantiate(deadBody, this.transform.position,this.transform.rotation);
         Destroy(gameObject);
+        deathMenuUI.SetActive(true);
     }
 }

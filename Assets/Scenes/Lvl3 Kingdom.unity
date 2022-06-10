@@ -4870,6 +4870,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aaf5a961414ce8459389d1c6750e07a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1990666446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 666008272, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2026085319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,6 +5479,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1990666445}
+    - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: deathMenuUI
+      value: 
+      objectReference: {fileID: 1990666446}
     - target: {fileID: 7376918786214475992, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: m_Name
       value: Player

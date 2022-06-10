@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseControll : MonoBehaviour
+public class SystemControll : MonoBehaviour
 {
     [SerializeField] static bool GameIsPaused = false;
     [SerializeField] GameObject pauseMenuUI;
@@ -43,5 +43,9 @@ public class PauseControll : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
