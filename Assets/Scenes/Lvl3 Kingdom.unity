@@ -2822,7 +2822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7024da20ddcd042438b638f679ac5bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionScene: 4
+  transitionScene: 5
   spawnPosition: {x: -115, y: 0.9386989, z: -1}
   playerStorage: {fileID: 11400000, guid: 8828014e966f0f6438d1c3281a1c2174, type: 2}
   firstStart: 0
@@ -3178,7 +3178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7024da20ddcd042438b638f679ac5bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionScene: 1
+  transitionScene: 2
   spawnPosition: {x: 120, y: 0.9386989, z: -1}
   playerStorage: {fileID: 11400000, guid: 8828014e966f0f6438d1c3281a1c2174, type: 2}
   firstStart: 0
