@@ -114,7 +114,10 @@ public class PlayerController : MonoBehaviour
                 }
 
                 animator.SetFloat("Speed", 1);
-                if (move == 0) { animator.SetFloat("Speed", 0); }
+                if (move == 0) 
+                { 
+                    animator.SetFloat("Speed", 0); 
+                }
             }
 
             Vector3 targetVelocity = new Vector2(move * 10f, rb.velocity.y);
@@ -135,6 +138,7 @@ public class PlayerController : MonoBehaviour
             grounded = false;
             rb.AddForce(new Vector2(0f, jumpForce));
             animator.SetBool("IsJumping", true);
+            FindObjectOfType<PlayerSoundController>().Invoke("LandingSound", 0.5f);
         }
         if (grounded == true)
         {

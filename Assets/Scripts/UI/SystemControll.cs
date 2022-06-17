@@ -48,4 +48,8 @@ public class SystemControll : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void EndGame()
+    {
+        print("game end");
+    }
 }

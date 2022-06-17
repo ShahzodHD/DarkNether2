@@ -289,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 842306452}
     - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: deathMenuUI
@@ -1368,6 +1368,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 666008272, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936750521, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+      propertyPath: m_Text
+      value: YOU DIED
+      objectReference: {fileID: 0}
     - target: {fileID: 896929763605639129, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2270,10 +2278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2843fb331cad04d82b1dd27b5568b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  distanceBeforePlayer: 2
+  speed: 5
+  distanceBeforePlayer: 2.5
   globalDistance: 10
-  coolDown: 1
+  coolDown: 1.5
   damage: 40
   attackPoint: {fileID: 629311267}
   playerLayers:
