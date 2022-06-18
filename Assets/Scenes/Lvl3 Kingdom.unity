@@ -372,6 +372,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &71055675 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 152103403, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &99533180
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +441,11 @@ PolygonCollider2D:
       - {x: -14.208166, y: -0.7395519}
       - {x: 126.50438, y: -1.1651146}
       - {x: 126.41287, y: 15.33677}
+--- !u!82 &139393558 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 863266044, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &164667266
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +615,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &209733459 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 622945245, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &309675718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1053,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 45dfc8f482701fc4ba6943919c9fcf42, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1956,8 +1971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7024da20ddcd042438b638f679ac5bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionScene: 4
-  spawnPosition: {x: -10, y: 4, z: -1}
+  transitionScene: 5
+  spawnPosition: {x: -10, y: 1, z: -1}
   playerStorage: {fileID: 11400000, guid: 8828014e966f0f6438d1c3281a1c2174, type: 2}
   firstStart: 1
 --- !u!1 &768541395
@@ -2458,6 +2473,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &924130057 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8757708113652971440, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &946600781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,7 +2940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionScene: 5
-  spawnPosition: {x: -115, y: 0.9386989, z: -1}
+  spawnPosition: {x: -17, y: 3.2, z: -1}
   playerStorage: {fileID: 11400000, guid: 8828014e966f0f6438d1c3281a1c2174, type: 2}
   firstStart: 0
 --- !u!61 &1013335533
@@ -3276,7 +3296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionScene: 2
-  spawnPosition: {x: 120, y: 0.9386989, z: -1}
+  spawnPosition: {x: 120, y: 0.939, z: -1}
   playerStorage: {fileID: 11400000, guid: 8828014e966f0f6438d1c3281a1c2174, type: 2}
   firstStart: 0
 --- !u!61 &1225549914
@@ -4189,6 +4209,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &1734450910 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5707590116561665740, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 1990666444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1813655823
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,7 +4391,6 @@ GameObject:
   - component: {fileID: 1853066946}
   - component: {fileID: 1853066945}
   - component: {fileID: 1853066947}
-  - component: {fileID: 1853066948}
   m_Layer: 0
   m_Name: ladder_3
   m_TagString: Untagged
@@ -4447,7 +4471,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853066944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -4466,20 +4490,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.8, y: 5.15}
   m_EdgeRadius: 0
---- !u!114 &1853066948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853066944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb8544abdd0ecc42b3dc8a9b349f921, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonE: {fileID: 0}
-  location: 3
 --- !u!1 &1892125158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4854,6 +4864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 152103403, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34c0a7180d7b5074d9a890a76598a9c5, type: 3}
     - target: {fileID: 896929763605639129, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5560,6 +5574,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2068683646, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: jumpSourse
+      value: 
+      objectReference: {fileID: 924130057}
+    - target: {fileID: 2068683646, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: landingSourse
+      value: 
+      objectReference: {fileID: 1734450910}
+    - target: {fileID: 2068683646, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: runningSourse
+      value: 
+      objectReference: {fileID: 71055675}
     - target: {fileID: 7376918786214475938, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: runSpeed
       value: 25
@@ -5577,9 +5603,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1990666445}
     - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: hurtSource
+      value: 
+      objectReference: {fileID: 209733459}
+    - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: deathMenuUI
       value: 
       objectReference: {fileID: 1990666446}
+    - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: deathSource
+      value: 
+      objectReference: {fileID: 139393558}
+    - target: {fileID: 7376918786214475941, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
+      propertyPath: attackSource
+      value: 
+      objectReference: {fileID: 209733459}
     - target: {fileID: 7376918786214475992, guid: 11f0993a8999cdc42b48645060020f1f, type: 3}
       propertyPath: m_Name
       value: Player

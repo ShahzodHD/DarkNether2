@@ -98,8 +98,6 @@ public class PlayerController : MonoBehaviour
                 {
                     crouchDisableCollider.enabled = false;
                 }
-
-                if (move > 0 || move < 0) { animator.SetFloat("Speed", -1); }
             }
             else
             {

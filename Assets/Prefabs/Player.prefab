@@ -230,6 +230,7 @@ MonoBehaviour:
   nextAttackTime: 0
   playerMovement: {fileID: 7376918786214475938}
   playerController: {fileID: 7376918786214475939}
+  soundController: {fileID: 2068683646}
   attackCtrl: 1
 --- !u!114 &7376918786214475942
 MonoBehaviour:
@@ -261,7 +262,7 @@ MonoBehaviour:
   deathMenuUI: {fileID: 0}
   healthBar: {fileID: 0}
   playerCombat: {fileID: 7376918786214475943}
-  attackSource: {fileID: 0}
+  hurtSource: {fileID: 0}
   deathSource: {fileID: 0}
   hurtClip:
   - {fileID: 8300000, guid: 3e53b5075fa606b4dadb7ba87770ac2d, type: 3}
@@ -283,15 +284,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01945ac4657f8c24c9334050a6528781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 7376918786214475939}
   rb: {fileID: 7376918786214475996}
   runningSourse: {fileID: 0}
   jumpSourse: {fileID: 0}
   landingSourse: {fileID: 0}
+  attackSourse: {fileID: 0}
   jumpClip:
   - {fileID: 8300000, guid: d543e182eb355c34d87b44a5b593371e, type: 3}
   - {fileID: 8300000, guid: 7db832f3832c83847a9bd2344854853c, type: 3}
   - {fileID: 8300000, guid: b7801d866a96b934eb1605db2b2c5943, type: 3}
-  - {fileID: 8300000, guid: 202c92a8fc85a5a42a7f7f7dcb1fb30e, type: 3}
+  attackAirClip: []
+  attackBodyClip: []
 --- !u!1 &7376918786450113999
 GameObject:
   m_ObjectHideFlags: 0

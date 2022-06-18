@@ -12,6 +12,7 @@ public class PlayerCombat : MonoBehaviour
 
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private PlayerController playerController;
+    [SerializeField] private PlayerSoundController soundController;
 
     public bool attackCtrl;
     private void Update()
@@ -32,11 +33,14 @@ public class PlayerCombat : MonoBehaviour
     }
     private void Attack()
     {
+        soundController.AttackSoundAir();
+
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyHealthSystem>().TakeDamage(attackDamage);
+            soundController.StopSound();
         }
 
         Invoke("AfterAttack", 0.3f);

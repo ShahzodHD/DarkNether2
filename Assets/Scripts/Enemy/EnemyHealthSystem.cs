@@ -3,8 +3,14 @@ using System.Collections;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
+    [SerializeField] private EnemyAI enemyAI;
+
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
+
+    [SerializeField] private AudioSource hurtSource;
+    [SerializeField] private AudioClip hurtClip;
+    [SerializeField] private AudioClip deathClip;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -21,6 +27,12 @@ public class EnemyHealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+        }
+
+        if (currentHealth > 0)
+        {
+            hurtSource.clip = hurtClip;
+            hurtSource.Play();
         }
 
         StartCoroutine("Hurt");
@@ -40,6 +52,11 @@ public class EnemyHealthSystem : MonoBehaviour
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<EnemyAI>().enabled = false;
+
+        enemyAI.runSourse.Stop();
+        hurtSource.clip = deathClip;
+        hurtSource.Play();
+
         Invoke("Faded", 6);
     }
 

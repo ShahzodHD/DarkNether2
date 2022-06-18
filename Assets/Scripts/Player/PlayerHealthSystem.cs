@@ -8,7 +8,7 @@ public class PlayerHealthSystem : MonoBehaviour
     [SerializeField] private HealthBar healthBar;
     [SerializeField] private PlayerCombat playerCombat;
 
-    [SerializeField] private AudioSource attackSource;
+    [SerializeField] private AudioSource hurtSource;
     [SerializeField] private AudioSource deathSource;
     [SerializeField] private AudioClip[] hurtClip;
     [SerializeField] private AudioClip[] deathClip;
@@ -37,8 +37,8 @@ public class PlayerHealthSystem : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            attackSource.clip = hurtClip[Random.Range(0, hurtClip.Length)];
-            attackSource.Play();
+            hurtSource.clip = hurtClip[Random.Range(0, hurtClip.Length)];
+            hurtSource.Play();
         }
     }
     private void Die()

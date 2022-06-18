@@ -20,8 +20,13 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private Vector2 sizeRange;
     [SerializeField] private float angleRange;
 
+    [SerializeField] private AudioSource attackSourse;
+    [SerializeField] public AudioSource runSourse;
+    [SerializeField] private AudioClip[] attackClip;
+
     private protected bool canAttacked = true;
     private protected float _speed;
+    public bool canRunForSound = true;
     private protected void Start()    
     {
         Physics2D.IgnoreLayerCollision(10, 10, true);
@@ -52,6 +57,11 @@ public class EnemyAI : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) > distanceBeforePlayer)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+        }
+        if (canRunForSound == true)
+        {
+            runSourse.Play();
+            canRunForSound = false;
         }
     }
     private protected void Flip()
