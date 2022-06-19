@@ -1665,6 +1665,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 8585649537214718392, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8585649537214718392, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
+      propertyPath: angleRange
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8585649537214718393, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
       propertyPath: m_RootOrder
       value: 11

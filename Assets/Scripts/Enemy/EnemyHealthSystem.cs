@@ -9,8 +9,8 @@ public class EnemyHealthSystem : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     [SerializeField] private AudioSource hurtSource;
-    [SerializeField] private AudioClip hurtClip;
-    [SerializeField] private AudioClip deathClip;
+    [SerializeField] private AudioClip[] hurtClip;
+    [SerializeField] private AudioClip[] deathClip;
 
     [SerializeField] private int maxHealth = 100;
 
@@ -31,7 +31,7 @@ public class EnemyHealthSystem : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            hurtSource.clip = hurtClip;
+            hurtSource.clip = hurtClip[Random.Range(0, hurtClip.Length)];
             hurtSource.Play();
         }
 
@@ -54,7 +54,7 @@ public class EnemyHealthSystem : MonoBehaviour
         GetComponent<EnemyAI>().enabled = false;
 
         enemyAI.runSourse.Stop();
-        hurtSource.clip = deathClip;
+        hurtSource.clip = deathClip[Random.Range(0, deathClip.Length)];
         hurtSource.Play();
 
         Invoke("Faded", 6);

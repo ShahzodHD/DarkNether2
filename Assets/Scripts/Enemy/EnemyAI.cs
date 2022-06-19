@@ -79,6 +79,9 @@ public class EnemyAI : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.position) < distanceBeforePlayer && canAttacked == true) 
         {
+            attackSourse.clip = attackClip[Random.Range(0, attackClip.Length)];
+            attackSourse.Play();
+
             animator.SetTrigger("Attack");
 
             canAttacked = false;
