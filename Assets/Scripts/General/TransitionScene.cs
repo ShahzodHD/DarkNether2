@@ -13,7 +13,7 @@ public class TransitionScene : MonoBehaviour
     {
         if (firstStart == true)
         {
-            playerStorage.initialValue = new Vector3(-7, 1, -1);
+            playerStorage.initialValue = new Vector3(-7, 0.8f, -1);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
