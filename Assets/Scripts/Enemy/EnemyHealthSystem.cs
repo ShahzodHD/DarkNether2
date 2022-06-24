@@ -7,6 +7,9 @@ public class EnemyHealthSystem : MonoBehaviour
 
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Color hurtColor;
+    [SerializeField] private GameObject hurtEffect;
+    [SerializeField] private Transform hurtEffectPosition;
 
     [SerializeField] private AudioSource hurtSource;
     [SerializeField] private AudioClip[] hurtClip;
@@ -42,7 +45,8 @@ public class EnemyHealthSystem : MonoBehaviour
 
     IEnumerator Hurt()
     {
-        spriteRenderer.color = Color.red;
+        Instantiate(hurtEffect, hurtEffectPosition.position, Quaternion.identity);
+        spriteRenderer.color = hurtColor;
         yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = defaultSpriteColor;
         yield return null;

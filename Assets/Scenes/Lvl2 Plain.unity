@@ -2847,6 +2847,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee
       objectReference: {fileID: 0}
+    - target: {fileID: 7687943554302313149, guid: 13681769a71e691428dc87180780c000, type: 3}
+      propertyPath: hurtColor.b
+      value: 0.03870699
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687943554302313149, guid: 13681769a71e691428dc87180780c000, type: 3}
+      propertyPath: hurtColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687943554302313149, guid: 13681769a71e691428dc87180780c000, type: 3}
+      propertyPath: hurtColor.r
+      value: 0.49056602
+      objectReference: {fileID: 0}
     - target: {fileID: 7687943554302313150, guid: 13681769a71e691428dc87180780c000, type: 3}
       propertyPath: damage
       value: 20
@@ -3679,6 +3691,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2391907344742439021, guid: 89b04e0577e54834590371942d1ef64d, type: 3}
+      propertyPath: hurtColor.b
+      value: 0.022878718
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391907344742439021, guid: 89b04e0577e54834590371942d1ef64d, type: 3}
+      propertyPath: hurtColor.g
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391907344742439021, guid: 89b04e0577e54834590371942d1ef64d, type: 3}
+      propertyPath: hurtColor.r
+      value: 0.005339972
+      objectReference: {fileID: 0}
     - target: {fileID: 2391907344742439023, guid: 89b04e0577e54834590371942d1ef64d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3828,6 +3852,22 @@ PrefabInstance:
     - target: {fileID: 5144390327698013786, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
       propertyPath: maxHealth
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144390327698013786, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
+      propertyPath: hurtColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144390327698013786, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
+      propertyPath: hurtColor.b
+      value: 0.17194729
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144390327698013786, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
+      propertyPath: hurtColor.g
+      value: 0.17194729
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144390327698013786, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
+      propertyPath: hurtColor.r
+      value: 0.990566
       objectReference: {fileID: 0}
     - target: {fileID: 5144390327698013787, guid: 905619cbc96e79548976b0e5991291fe, type: 3}
       propertyPath: damage

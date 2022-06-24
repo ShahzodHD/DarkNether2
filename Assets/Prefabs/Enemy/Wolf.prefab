@@ -254,6 +254,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &5027252413442053098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8910815682918813908}
+  m_Layer: 10
+  m_Name: PointHurtEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8910815682918813908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5027252413442053098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.043, y: 0.897, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5144390327698013776}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5144390327698013777
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +321,7 @@ Transform:
   - {fileID: 32834858378207087}
   - {fileID: 533988660191100630}
   - {fileID: 1273193431019270990}
+  - {fileID: 8910815682918813908}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -427,6 +458,9 @@ MonoBehaviour:
   enemyAI: {fileID: 5144390327698013787}
   animator: {fileID: 5144390327698013781}
   spriteRenderer: {fileID: 5144390327698013783}
+  hurtColor: {r: 0.9245283, g: 0.18665004, b: 0.18665004, a: 1}
+  hurtEffect: {fileID: 6399214998388677718, guid: fdf2f93f91e7032499b9a0695a0203f7, type: 3}
+  hurtEffectPosition: {fileID: 8910815682918813908}
   hurtSource: {fileID: 7861403687716988766}
   hurtClip:
   - {fileID: 8300000, guid: 4e691434a8ad460498a72721356a630d, type: 3}

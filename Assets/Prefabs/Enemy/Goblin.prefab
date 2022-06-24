@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &242928682860982204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4916797168273124952}
+  m_Layer: 10
+  m_Name: PointHurtEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4916797168273124952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242928682860982204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06, y: 0.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2391907344742439023}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2213262187839402564
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +224,7 @@ Transform:
   - {fileID: 1449631817964156533}
   - {fileID: 7253770448670689641}
   - {fileID: 8517348922802450338}
+  - {fileID: 4916797168273124952}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -330,6 +361,9 @@ MonoBehaviour:
   enemyAI: {fileID: 2391907344742439022}
   animator: {fileID: 2391907344742439020}
   spriteRenderer: {fileID: 2391907344742439016}
+  hurtColor: {r: 0, g: 0.3207547, b: 0.024405263, a: 1}
+  hurtEffect: {fileID: 6399214998388677718, guid: 5ecb51aec16d2d34daa89f0c6d07cbb8, type: 3}
+  hurtEffectPosition: {fileID: 4916797168273124952}
   hurtSource: {fileID: 4326916912332725827}
   hurtClip:
   - {fileID: 8300000, guid: bf7948c3c34aace4cb232bbd3698db43, type: 3}

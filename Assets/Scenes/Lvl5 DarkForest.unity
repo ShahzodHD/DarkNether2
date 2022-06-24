@@ -2276,6 +2276,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8585649537214718395, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
+      propertyPath: hurtColor.b
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8585649537214718395, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
+      propertyPath: hurtColor.g
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8585649537214718395, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
+      propertyPath: hurtColor.r
+      value: 0.2627451
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d2e7463fb6921d45a5fb276f6b183c9, type: 3}
 --- !u!4 &621808827 stripped
@@ -2678,6 +2690,18 @@ PrefabInstance:
     - target: {fileID: 9207878683874921585, guid: d4027f8d5f330eb42834eae682fba959, type: 3}
       propertyPath: m_Name
       value: Bat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207878683874921587, guid: d4027f8d5f330eb42834eae682fba959, type: 3}
+      propertyPath: hurtColor.b
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207878683874921587, guid: d4027f8d5f330eb42834eae682fba959, type: 3}
+      propertyPath: hurtColor.g
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207878683874921587, guid: d4027f8d5f330eb42834eae682fba959, type: 3}
+      propertyPath: hurtColor.r
+      value: 0.2627451
       objectReference: {fileID: 0}
     - target: {fileID: 9207878683874921598, guid: d4027f8d5f330eb42834eae682fba959, type: 3}
       propertyPath: m_RootOrder

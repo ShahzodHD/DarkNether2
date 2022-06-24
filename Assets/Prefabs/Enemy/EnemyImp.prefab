@@ -43,7 +43,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -448,6 +448,7 @@ Transform:
   - {fileID: 3646866586155170542}
   - {fileID: 8647085569984098020}
   - {fileID: 3185854196406823990}
+  - {fileID: 5273944724432065913}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -584,12 +585,15 @@ MonoBehaviour:
   enemyAI: {fileID: -4157248883352231481}
   animator: {fileID: 5955955760611223838}
   spriteRenderer: {fileID: 5955955760611223845}
+  hurtColor: {r: 0.34901962, g: 0.13333334, b: 0.13333334, a: 1}
+  hurtEffect: {fileID: 6399214998388677718, guid: 1e6c363029a20fa42aac7d21106b2636, type: 3}
+  hurtEffectPosition: {fileID: 5273944724432065913}
   hurtSource: {fileID: 8148032827384342858}
   hurtClip:
   - {fileID: 8300000, guid: 7749f45de674cff43b1dc4eb3bb7eb5c, type: 3}
   - {fileID: 8300000, guid: f6a5e65f56b17d54cb088ad7fcd7942c, type: 3}
   deathClip:
-  - {fileID: 8300000, guid: 4e5c0e30f67320448a31aa574de013cf, type: 3}
+  - {fileID: 8300000, guid: 2db24a383d8a0e74687d1009e3dc8adb, type: 3}
   maxHealth: 100
 --- !u!114 &-4157248883352231481
 MonoBehaviour:
@@ -624,3 +628,33 @@ MonoBehaviour:
   attackClip:
   - {fileID: 8300000, guid: 4ce6eb80a3f627349a02f87839ab09e8, type: 3}
   canRunForSound: 1
+--- !u!1 &8035348499273334381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5273944724432065913}
+  m_Layer: 10
+  m_Name: PointHurtEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5273944724432065913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8035348499273334381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.064, y: 0.708, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5955955760611223834}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
