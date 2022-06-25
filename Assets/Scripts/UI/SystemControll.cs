@@ -38,7 +38,7 @@ public class SystemControll : MonoBehaviour
     }
     public void LoadMenu()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene("Main Menu");
     }
     public void QuitGame()
     {
