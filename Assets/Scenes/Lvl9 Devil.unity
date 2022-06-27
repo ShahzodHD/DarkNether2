@@ -7779,6 +7779,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 8757708113652971440, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
   m_PrefabInstance: {fileID: 842306451}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &842306458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 896929764614105115, guid: 52ebc1c2a96f85f4b812850b72cd3660, type: 3}
+  m_PrefabInstance: {fileID: 842306451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &864960124
 GameObject:
   m_ObjectHideFlags: 0
@@ -13722,6 +13727,7 @@ GameObject:
   - component: {fileID: 1500022657}
   - component: {fileID: 1500022656}
   - component: {fileID: 1500022655}
+  - component: {fileID: 1500022658}
   - component: {fileID: 1500022654}
   - component: {fileID: 1500022653}
   m_Layer: 10
@@ -13862,7 +13868,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 55ecc92b26cc78d429f26330b040ea2c, type: 3}
   deathClip:
   - {fileID: 8300000, guid: acfd1fa37688d364b9b3302955ac8d24, type: 3}
-  maxHealth: 400
+  maxHealth: 40
 --- !u!95 &1500022655
 Animator:
   serializedVersion: 3
@@ -13929,6 +13935,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.625, y: 6.712597}
   m_EdgeRadius: 0
+--- !u!114 &1500022658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500022650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407e73506cb49b648af2b40c8b76474d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 842306458}
 --- !u!1 &1525076432
 GameObject:
   m_ObjectHideFlags: 0

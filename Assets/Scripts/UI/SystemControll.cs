@@ -50,6 +50,6 @@ public class SystemControll : MonoBehaviour
     }
     public void EndGame()
     {
-        print("game end");
+        SceneManager.LoadScene("End Titre");
     }
 }
