@@ -392,7 +392,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'audio engineer:     ARSENY POPOV'
+  m_Text: 'audio engineer:     arseniy popov'
 --- !u!222 &440265240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Author
+  m_Text: author
 --- !u!222 &662092433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -879,7 +879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACK
+  m_Text: back
 --- !u!222 &958037197
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1209,7 +1209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lead developer:    KHALIMOV SHAHZOD'
+  m_Text: 'lead developer:    khalimov shahzod'
 --- !u!222 &1439919086
 CanvasRenderer:
   m_ObjectHideFlags: 0
