@@ -2,4 +2,4 @@
 
 
 ## Gameplay
-[![](https://img.youtube.com/vi/1npO2ONmKUM/sddefault.jpg)](https://youtu.be/1npO2ONmKUM)
+[![](https://img.youtube.com/vi/1npO2ONmKUM/hqdefault.jpg)](https://youtu.be/1npO2ONmKUM)
