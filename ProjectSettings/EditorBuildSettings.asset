@@ -5,37 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 494325af80a090f448a5cd78033e6491
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl1 Village.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl2 Plain.unity
     guid: d7062ba431169b945b7100bd9b87eccb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl3 Kingdom.unity
     guid: 20ee5794150f2884dbf00d8af97f89f1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl4 King.unity
     guid: fa323fb93bd72c04d82d2a7aaf5995eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl5 DarkForest.unity
     guid: 1fcbc49e4b6e22744a76ee06330e6b4e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl6 Swamp.unity
     guid: 074d0f71e719fa94b9eeae28afe0f446
   - enabled: 1
     path: Assets/Scenes/Lvl7 NetherCave.unity
     guid: 7af09bf66c2513b4ba2ab7bb356ca22b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl8 FireValley.unity
     guid: 759ed3e3707563d4ba4e3e6bb7e27a46
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lvl9 Devil.unity
     guid: 6403dd43dbbf3a44e8c4f87204ac89ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/End Titre.unity
     guid: 8c5e6ab0f4a241f4f978a06e2d0473ec
   m_configObjects: {}
